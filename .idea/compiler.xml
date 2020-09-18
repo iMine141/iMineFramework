@@ -9,5 +9,8 @@
         <module name="FrameWork" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FrameWork" target="6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

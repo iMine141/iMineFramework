@@ -10,6 +10,7 @@ public class Advice implements InvocationHandler {
     private Object bean;
     private MethodInvocation methodInvocation;
     public Advice(Object bean, MethodInvocation methodInvocation) {
+
         this.bean = bean;
         this.methodInvocation = methodInvocation;
     }
